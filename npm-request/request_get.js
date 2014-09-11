@@ -8,7 +8,6 @@ http.createServer(function(req, res) {
     console.log('trigger data event')
     postData += postDataChunk;
   });
-
   req.addListener('end',  function() {
     console.log('trigger end event')
     var postStr = JSON.stringify(querystring.parse(postData));
