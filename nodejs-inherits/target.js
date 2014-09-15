@@ -4,9 +4,9 @@
  *
  */
 var Target = function() {
-	// this.request = function(){
-	// 	console.log('Target::request');
-	// }
+	this.request = function(){
+		console.log('Target::request');
+	}
 }
 
 
