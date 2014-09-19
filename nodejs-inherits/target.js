@@ -9,5 +9,4 @@ var Target = function() {
 	}
 }
 
-
 module.exports = Target;
