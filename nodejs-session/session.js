@@ -41,7 +41,7 @@ var start = function(req, res) {
 
 };
 
-// 新建Session
+//新建Session
 function newSession(res) {
 
   var chars = '0123456789ABCDEFGFIJKLMNOPQRSTUVWXZabcdefgfijklmnopqrstuvwxz';
